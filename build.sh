@@ -9,6 +9,6 @@ echo "Target to build: " $target
 export TEMPLATECONF=meta-openvario/conf
 export MACHINE="$1"
 
-. ./poky/oe-init-build-env
+. ./poky/oe-init-build-env build
 
 bitbake $target
